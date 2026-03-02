@@ -1,5 +1,6 @@
 class Solution {
     public int lastDigit(int n) {
-        return Math.abs(n % 10);
+     return (Math.abs(n % 10));
+        
     }
 }
