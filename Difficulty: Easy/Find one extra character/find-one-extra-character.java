@@ -1,16 +1,16 @@
 class Solution {
-    char extraChar(String s1, String s2) {
-
-        char result = 0;
-
-        for (int i = 0; i < s1.length(); i++) {
-            result ^= s1.charAt(i);
-        }
+    public char extraChar(String s1, String s2) {
+        
+        int sum = 0;
 
         for (int i = 0; i < s2.length(); i++) {
-            result ^= s2.charAt(i);
+            sum += s2.charAt(i);
         }
 
-        return result;
+        for (int i = 0; i < s1.length(); i++) {
+            sum -= s1.charAt(i);
+        }
+
+        return (char) sum;
     }
 }
