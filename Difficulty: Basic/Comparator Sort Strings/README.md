@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/comparator-sort-strings/1?page=6&category=Java&sortBy=submissions">Comparator Sort Strings</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given a string array <strong>arr[],</strong> <strong>sort </strong>the array <strong>lexicographically </strong>while <strong>ignoring </strong>the case.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = ["Abc", "Xyz", "fghfg", "adas", "tuTY", "dsa"]</span>
+<span style="font-size: 18px;"><strong>Output: </strong>Abc adas dsa fghfg tuTY Xyz</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>We ignore the case and sort it lexicographically, so we get Abc adas dsa fghfg tuTY Xyz.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = ["week", "GEEKS"]</span>
+<span style="font-size: 18px;"><strong>Output: </strong>GEEKS week</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>We ignore the case and sort it lexicographically, so we get GEEKS week.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>2&nbsp;<span style="color: #273239; font-family: Nunito; font-size: 17px; background-color: #ffffff;">≤</span>&nbsp;arr.length&nbsp;<span style="color: #273239; font-family: Nunito; font-size: 17px; background-color: #ffffff;">≤</span>&nbsp;10<sup>3<br><span style="font-size: 14pt;">arr[i] consists of lower and upper alphabets (a-z and A-Z)</span><br></sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Java</code>&nbsp;<code>Java-Collections</code>&nbsp;
