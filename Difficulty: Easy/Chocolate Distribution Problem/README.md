@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/chocolate-distribution-problem-1607582550--183828/1?page=7&category=Java&sortBy=submissions">Chocolate Distribution Problem</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given a positive integer array <strong>arr[] </strong>of size <strong>n</strong> and&nbsp;</span><span style="font-size: 18px;">an integer&nbsp;</span><strong style="font-size: 18px;">k</strong><span style="font-size: 18px;">, where each value of the array represents the number of chocolates in the </span><strong style="font-size: 18px;">i-</strong><span style="font-size: 18px;">th packet (</span><strong style="font-size: 18px;">i</strong><span style="font-size: 18px;"> &lt; </span><strong style="font-size: 18px;">n</strong><span style="font-size: 18px;">)</span><span style="font-size: 18px;">. Each packet can have variable number of chocolates. There are </span><strong style="font-size: 18px;">k</strong><span style="font-size: 18px;">&nbsp;students, the task is to distribute chocolate packets such that :</span></p>
+<ul>
+<li><span style="font-size: 18px;">Each student gets only one packet.</span></li>
+<li><span style="font-size: 18px;">The difference between the number of chocolates given to the students having packet with maximum chocolates and student having packet with minimum chocolates should be minimum.</span></li>
+</ul>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [3, 4, 1, 9, 56, 7, 9, 12], k = 5</span>
+<span style="font-size: 18px;"><strong>Output: </strong>6</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>The minimum difference between maximum chocolates and minimum chocolates is 9 - 3 = 6.<br></span></pre>
+<p><strong><span style="font-size: 18px;">constraint:</span></strong></p>
+<p><span style="font-size: 18px;">1 &lt;= k &lt;= n &lt;= 100<br>0 &lt;= arr[i] &lt;= 1000</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Sorting</code>&nbsp;<code>CPP</code>&nbsp;<code>Java</code>&nbsp;
