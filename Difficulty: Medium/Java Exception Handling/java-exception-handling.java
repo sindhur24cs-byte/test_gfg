@@ -1,19 +1,19 @@
 class Solution {
-    public static int findMin(int a, int b) {
-        // Calculate standard operations
+    public int findMin(int a, int b) {
+        // Calculate the results of valid operations
         int add = a + b;
         int sub = a - b;
         int mul = a * b;
 
-        // Start min with the addition result
+        // Start min with the minimum of addition, subtraction, and multiplication
         int minVal = Math.min(add, Math.min(sub, mul));
 
-        // Try floor division with exception handling
+        // Use try-catch to safely perform division
         try {
             int div = a / b;
             minVal = Math.min(minVal, div);
         } catch (ArithmeticException e) {
-            // Division by zero occurred — ignore division and proceed
+            // Division by zero attempted -> exclude division from comparison
         }
 
         return minVal;
