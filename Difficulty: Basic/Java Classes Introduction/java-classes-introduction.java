@@ -16,7 +16,6 @@ class task {
     }
 
     public void volume() {
-        long vol = (long) length * width * height;
-        System.out.println(vol);
+        System.out.println(length * width * height);
     }
 }
